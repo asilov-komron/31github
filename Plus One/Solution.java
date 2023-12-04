@@ -10,8 +10,7 @@ class Solution {
             }
 
             digits[i]++;
-            return digits;
-
+            break;
         }
         
         if(digits[0] == 0){
@@ -26,6 +25,8 @@ class Solution {
 
 
 
+
+        return digits;
 
 
     }
